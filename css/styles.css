@@ -10,6 +10,8 @@ body{
 list-style-type: none;
 }
 
+/*-----------HEADER------------*/
+
 .header-logo{
 color: var(--iris, #4D5AE5);
 font-size: 18px;
@@ -44,3 +46,35 @@ letter-spacing: 0.02em;
     color: #404BBF;
 }
     
+.header-address-link:is(:hover, :focus){
+color: #404BBF;
+}
+
+/*-----------HERO------------*/
+
+.hero {
+    background: var(--navyblue, #2E2F42);
+}
+
+.hero-title {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; /* 60/56 */
+    letter-spacing: 0.02em; /* 1.12/56 */
+}
+
+.hero-btn {
+    color: var(--white, #FFF);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 24/16 */
+    letter-spacing: 0.04em; /* 0.64/16 */
+    background: var(--iris, #4D5AE5);
+}
+
+/*-----------FEATURE------------*/
+
+
