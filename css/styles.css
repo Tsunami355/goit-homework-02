@@ -31,6 +31,18 @@ body{
 list-style-type: none;
 }
 
+.section-title{
+    color: var(--accent-color);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 40/36 */
+        letter-spacing: 0.02em;
+        /* 0.72/36 */
+        text-transform: capitalize;
+    }
+
 /*-----------HEADER------------*/
 
 .header-logo{
@@ -127,16 +139,10 @@ color: #404BBF;
 
 /*-----------PRODUCT------------*/
 
-.product {}
+.product {
+    background:var(--main-text-color);
+}
 
-.product-title {
-    color: var(--accent-color);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11; /* 40/36 */
-    letter-spacing: 0.02em; /* 0.72/36 */
-    text-transform: capitalize;}
 
 .product-list {}
 
@@ -150,19 +156,6 @@ color: #404BBF;
     background: var(--cloud, #F4F4FD);
 }
 
-.team-title {color: var(--accent-color);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11; /* 40/36 */
-    letter-spacing: 0.02em; /* 0.72/36 */
-    text-transform: capitalize;}
-
-.team-list {}
-
-.team-item {}
-
-.team-img {}
 
 .team-subtitle {color: var(--accent-color);
     text-align: center;
