@@ -78,7 +78,7 @@ letter-spacing: 0.02em; /* 0.32/16 */
 }
 
 .header-address{
-    font-weight: normal;
+    font-style: normal;
 }
 
 .header-address-list{
@@ -91,6 +91,10 @@ letter-spacing: 0.02em;
 
 .header-menu-link:is(:hover, :focus){
     color: #404BBF;
+}
+
+.header-address-link{
+    color: var(--second-text-color);
 }
     
 .header-address-link:is(:hover, :focus){
@@ -133,12 +137,6 @@ color: #404BBF;
     background: var(--main-text-color);
 }
 
-.feature-list {}
-
-.feature-item {
-    
-}
-
 .feature-item-text {
     color: var(--second-text-color);
     font-size: 16px;
@@ -154,12 +152,6 @@ color: #404BBF;
     background:var(--main-text-color);
 }
 
-
-.product-list {}
-
-.product-item {}
-
-.product-img {}
 
 /*-----------TEAM------------*/
 
@@ -177,6 +169,10 @@ color: #404BBF;
 }
 
 .team-list{
+    background-color: var(--main-text-color);
+}
+
+.team-item{
     background-color: var(--main-text-color);
 }
 
@@ -241,6 +237,13 @@ color: #404BBF;
     background-color:#404BBF ;
 }
 
+.portfolio-subtitle{
+    color: var(--navyblue, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
 
 .portfolio-text {
     color: var(--slate, #434455);   
