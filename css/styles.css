@@ -238,7 +238,7 @@ color: #404BBF;
 }
 
 .portfolio-subtitle{
-    color: var(--navyblue, #2E2F42);
+    color:--navyblue, #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
