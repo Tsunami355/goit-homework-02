@@ -147,7 +147,7 @@ color: #404BBF;
 }
 
 .team-subtitle{
-    color: var(--navyblue, #2E2F42);
+    color: var(--accent-color);
         text-align: center;
         font-size: 20px;
         font-weight: 500;
@@ -225,7 +225,7 @@ color: #404BBF;
 }
 
 .portfolio-subtitle{
-    color:--navyblue, #2E2F42;
+    color:var(--accent-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
