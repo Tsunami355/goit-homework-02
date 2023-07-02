@@ -7,6 +7,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: var(--second-text-color);
+    background-color: var(--main-text-color);
 }
 
 .visually-hidden {
@@ -56,9 +58,9 @@ list-style-type: none;
 .header-logo{
 color: var(--iris, #4D5AE5);
 font-size: 18px;
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-weight: 800;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -76,6 +78,10 @@ letter-spacing: 0.02em; /* 0.32/16 */
 }
 
 .header-address{
+    font-weight: normal;
+}
+
+.header-address-list{
 color: var(--second-text-color);
 font-size: 16px;
 font-weight: 400;
@@ -114,6 +120,11 @@ color: #404BBF;
     line-height: 1.5; /* 24/16 */
     letter-spacing: 0.04em; /* 0.64/16 */
     background: var(--iris, #4D5AE5);
+    cursor: pointer;
+}
+
+.hero-btn:is(:hover, :focus){
+    background-color: #404BBF;
 }
 
 /*-----------FEATURE------------*/
@@ -165,6 +176,10 @@ color: #404BBF;
         letter-spacing: 0.02em;
 }
 
+.team-list{
+    background-color: var(--main-text-color);
+}
+
 .team-text {
     color: var(--second-text-color);
     text-align: center;
@@ -183,7 +198,7 @@ color: #404BBF;
 .footer-logo{
     color: var(--iris, #4D5AE5);
     font-size: 18px;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-style: normal;
         font-weight: 800;
         line-height: 1.17;/* 21/18 */
@@ -212,11 +227,18 @@ color: #404BBF;
     color: var(--iris, #4D5AE5);
     text-align: center;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5; /* 24/16 */
     letter-spacing: 0.04em; /* 0.64/16 */
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.portfolio-btn:is(:hover, :focus){
+    color: var(--main-text-color);
+    background-color:#404BBF ;
 }
 
 
